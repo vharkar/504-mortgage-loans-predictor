@@ -171,7 +171,13 @@ def make_loans_cube(*args):
             ["<br>Yrs_Customer: {}".format(x) for x in responded['Yrs_Customer']],
             ["<br>Age: {}".format(x) for x in responded['age']],
             ["<br>Kid Home: {}".format(x) for x in responded['Kidhome']],
-            ["<br>Teen Home: {}".format(x) for x in responded['Teenhome']]
+            ["<br>Teen Home: {}".format(x) for x in responded['Teenhome']],
+            ["<br>Accepted Prior Cmp: {}".format(x) for x in responded['AcceptedCmp5']],
+            ["<br>Deals Purchased: {}".format(x) for x in responded['NumDealsPurchases']],
+            ["<br>Online Purchases: {}".format(x) for x in responded['NumWebPurchases']],
+            ["<br>Catalog Purchases: {}".format(x) for x in responded['NumCatalogPurchases']],
+            ["<br>Store Purchases: {}".format(x) for x in responded['NumStorePurchases']],
+            ["<br>Monthly Web Visits: {}".format(x) for x in responded['NumWebVisitsMonth']]
             )) ,
         hovertemplate =
             '<b>Income: $%{x:.0f}</b>'+
@@ -194,7 +200,13 @@ def make_loans_cube(*args):
             ["<br>Yrs_Customer: {}".format(x) for x in ignored['Yrs_Customer']],
             ["<br>Age: {}".format(x) for x in ignored['age']],
             ["<br>Kid Home: {}".format(x) for x in ignored['Kidhome']],
-            ["<br>Teen Home: {}".format(x) for x in ignored['Teenhome']]
+            ["<br>Teen Home: {}".format(x) for x in ignored['Teenhome']],
+            ["<br>Accepted Prior Cmp: {}".format(x) for x in ignored['AcceptedCmp5']],
+            ["<br>Deals Purchased: {}".format(x) for x in ignored['NumDealsPurchases']],
+            ["<br>Online Purchases: {}".format(x) for x in ignored['NumWebPurchases']],
+            ["<br>Catalog Purchases: {}".format(x) for x in ignored['NumCatalogPurchases']],
+            ["<br>Store Purchases: {}".format(x) for x in ignored['NumStorePurchases']],
+            ["<br>Monthly Web Visits: {}".format(x) for x in ignored['NumWebVisitsMonth']]
                 )) ,
         hovertemplate =
             '<b>Income: $%{x:.0f}</b>'+
@@ -216,7 +228,13 @@ def make_loans_cube(*args):
             ["<br>Yrs_Customer: {}".format(x) for x in newdata['Yrs_Customer']],
             ["<br>Age: {}".format(x) for x in newdata['age']],
             ["<br>Kid Home: {}".format(x) for x in newdata['Kidhome']],
-            ["<br>Teen Home: {}".format(x) for x in newdata['Teenhome']]
+            ["<br>Teen Home: {}".format(x) for x in newdata['Teenhome']],
+            ["<br>Accepted Prior Cmp: {}".format(x) for x in newdata['AcceptedCmp5']],
+            ["<br>Deals Purchased: {}".format(x) for x in newdata['NumDealsPurchases']],
+            ["<br>Online Purchases: {}".format(x) for x in newdata['NumWebPurchases']],
+            ["<br>Catalog Purchases: {}".format(x) for x in newdata['NumCatalogPurchases']],
+            ["<br>Store Purchases: {}".format(x) for x in newdata['NumStorePurchases']],
+            ["<br>Monthly Web Visits: {}".format(x) for x in newdata['NumWebVisitsMonth']]
                 )) ,
         hovertemplate =
             '<b>Income: $%{x:.0f}</b>'+
