@@ -6,8 +6,10 @@
 Predict customer responsiveness to a marketing campaign.
 
 ## Notebooks:
+customer-eval-modeling.ipynb
 
 ## Final App:
+app.py
 
 ## Data Sources:
 
