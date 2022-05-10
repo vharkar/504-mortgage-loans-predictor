@@ -1,4 +1,19 @@
-# Mortgage Loan Prediction
+# Customer Response Prediction
+
+## Deployed app:
+
+## Problem Statement:
+Predict customer responsiveness to a marketing campaign.
+
+## Notebooks:
+
+## Final App:
+
+## Data Sources:
+
+Source 1: [Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
+
+# Based on Mortgage Loan Prediction
 
 ## Deployed app:
 Application deployed on Heroku: [link](https://mortgage-loans-predictor-app.herokuapp.com/)
